@@ -1,0 +1,14 @@
+// Form Control BOF
+@mixin form-control { background-color:transparent; color:$primary-color; padding:10px 15px; height:47px; font-size:14px; font-weight:500; border-width:1px;
+	border-style:solid; border-color:#ced4da; }
+.form-control {
+	@include form-control;
+	@include border-radius (5px);
+	@include transition (all .4s ease-in-out 0s);
+	@include box-shadow (none);
+		&:focus {
+			border-color:#e91e63;
+			@include box-shadow (none);
+			background-color:transparent;
+		}
+}
