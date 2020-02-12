@@ -1,0 +1,15 @@
+// Button BOF
+@mixin button  { background:$pink-color; color:$white-color; padding:12px 22px; }
+@mixin button-border { border:solid 1px $pink-color; color:$pink-color; background:none; }
+
+.btn {
+	@include button;
+	@include transition(all .4s ease-in-out 0s);
+	@include box-shadow (none);
+		&:hover, &:focus, &:active, &.active
+		{
+			background:$dark-pink-color;
+			color:$white-color;
+			@include box-shadow (none);
+		}
+}
