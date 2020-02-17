@@ -75,7 +75,7 @@
 .yit-top-nav.fancy-style a { color:#cbd3dc; }
 .yit-top-nav.fancy-style .top-nav-right ul li::after { color: #43566b; content: "|"; padding: 0 10px; }
 .yit-top-nav.fancy-style a:hover, .yit-top-nav.fancy-style a:focus, .yit-top-nav.fancy-style a:active { color:#fff; }
-.yit-top-nav.fancy-style:after { border-bottom: 250px solid #e91e63; border-left: 250px solid rgba(0, 0, 0, 0); bottom: 0; content: ""; height: 0; position: absolute; right: 0;
+.yit-top-nav.fancy-style:after { border-bottom: 250px solid #4CAF50; border-left: 250px solid rgba(0, 0, 0, 0); bottom: 0; content: ""; height: 0; position: absolute; right: 0;
 	width: 0; z-index: -1; }
 
 /*** Top Nav Language Selection CSS BOF ***/
@@ -162,7 +162,7 @@
 	.yit-nav .navbar-nav .nav-link:hover, .yit-nav .navbar-nav .nav-link:focus, .yit-nav .navbar-nav .nav-link:active,
 	.yit-nav .navbar-nav .nav-link.active, .yit-nav .navbar-nav .dropdown:hover, .yit-nav .navbar-nav .dropdown:focus,
 	.yit-nav .navbar-nav .dropdown:active, .yit-nav .yit-nav .navbar-nav .show .nav-link, .yit-nav .navbar-nav .active .nav-link,
-	.yit-nav .nav-link.show, .yit-nav .navbar-nav .nav-link.active { background-color:#e91e63; color:#fff; } /* change navigation hover here */
+	.yit-nav .nav-link.show, .yit-nav .navbar-nav .nav-link.active { background-color:#4CAF50; color:#fff; } /* change navigation hover here */
 
 /*** Nav Style General Dropdown CSS BOF **/
 .yit-nav .navbar .dropdown .dropdown-item { font-size:0.875rem; font-size:14px; display:block; font-weight:400; padding:9px 15px; line-height:normal; border-bottom:solid 1px rgba(0, 0, 0, .1); color:#000; }
@@ -188,11 +188,11 @@
 	.yit-nav .navbar .dropdown .dropdown-item:hover, .yit-nav .navbar .dropdown .dropdown-item:focus,
 	.yit-nav .navbar .dropdown .dropdown-item:active, .yit-nav .navbar .dropdown .dropdown-item.active, 
 	.yit-nav .navbar-nav .yit-seclevel-menu .dropdown:hover, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown:hover .nav-link,
-	.yit-nav .navbar-nav .yit-seclevel-menu .nav-item:hover .nav-link { background:#e91e63; color:#fff; } /* change general dropdown hover state */
+	.yit-nav .navbar-nav .yit-seclevel-menu .nav-item:hover .nav-link { background:#4CAF50; color:#fff; } /* change general dropdown hover state */
 
 	/* Second Level Dropdown (.yit-seclevel-menu) Hover/Active State */
 	.yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:hover, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:focus,
-	.yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:active,  .yit-nav .navbar-nav .yit-seclevel-menu .dropdown.active .nav-link { background:#e91e63; color:#fff; } /* change 2nd level dropdown hover state */
+	.yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:active,  .yit-nav .navbar-nav .yit-seclevel-menu .dropdown.active .nav-link { background:#4CAF50; color:#fff; } /* change 2nd level dropdown hover state */
 
 	/* Second Level Dropdown Item (.yit-seclevel-menu .dropdown-item) Hover/Active State */
 	.yit-nav .navbar-nav .yit-seclevel-menu .dropdown-item:hover, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown-item:focus,
@@ -209,7 +209,7 @@
 	.yit-nav .navbar-collapse.collapse.show { max-height: 380px; overflow-y: auto; } /* scroll appear in responsive */
 	.yit-nav .navbar-nav { margin-top:20px; }
 	.yit-nav .navbar-nav .nav-link { padding-top:10px; padding-bottom:10px; }
-	.yit-nav .navbar-light .navbar-toggler { border-color: #e91e63; color: #e91e63; }
+	.yit-nav .navbar-light .navbar-toggler { border-color: #4CAF50; color: #4CAF50; }
 	.yit-top-nav .top-nav-left, .yit-top-nav .top-nav-right { float:none; text-align:center; }
 	.yit-top-nav .top-call-action i { padding:0 }
 	.yit-nav .dropdown-menu { border:medium none; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; }
@@ -223,9 +223,9 @@
 		/* Hover State CSS BOF */
 		.yit-nav .navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(233, 30, 99, 1)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E"); }
 		.yit-nav .navbar-nav .nav-link:hover, .yit-nav .navbar-nav .nav-link:focus, .yit-nav .navbar-nav .nav-link:active,
-		.yit-nav .navbar-nav .nav-link.active { background-color:#e91e63; color:#fff; } /* mobile collpase nav hover */
+		.yit-nav .navbar-nav .nav-link.active { background-color:#4CAF50; color:#fff; } /* mobile collpase nav hover */
 		.yit-nav .navbar-light .navbar-nav .show > .nav-link, .yit-nav .navbar-light .navbar-nav .active > .nav-link, .yit-nav .navbar-light .navbar-nav .nav-link.show, 
-		.yit-nav .navbar-light .navbar-nav .nav-link.active { background: #e91e63; color:#fff; }
+		.yit-nav .navbar-light .navbar-nav .nav-link.active { background: #4CAF50; color:#fff; }
 
 		/* Toggle State CSS BOF */
 		.navbar .navbar-nav .dropdown-toggle::after { border: medium none; content: ""; font-family: "FontAwesome"; position: absolute; right:25px; font-size:20px;
@@ -242,7 +242,7 @@
 
 	/*** Nav Style Light CSS BOF ***/
 	.yit-nav-light-style .navbar-nav .nav-link { padding-left:.9rem; padding-right:.9rem; }
-	.yit-nav .yit-nav-light-style .nav-item.show { background:#e91e63; }
+	.yit-nav .yit-nav-light-style .nav-item.show { background:#4CAF50; }
 
 	/*** Nav Style Dark CSS BOF ***/
 	.yit-nav-dark-style .navbar-nav .nav-link { padding-left:.9rem; padding-right:.9rem; }
@@ -302,7 +302,7 @@
 	border-left:3px solid rgba(0, 0, 0, 0); }
 .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a i { padding-right:10px; font-size:17px; }
 .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item { background: #f8f8f8; position:relative; overflow:hidden; padding:10px; height:100%; }
-.yit-mega-menu .yit-mega-dropdown .page-title { color: #e91e63; font-size:15px; position: relative; padding:6px 10px; text-transform:uppercase; }
+.yit-mega-menu .yit-mega-dropdown .page-title { color: #4CAF50; font-size:15px; position: relative; padding:6px 10px; text-transform:uppercase; }
 .yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { max-height:700px; overflow:auto; } /* megamenu scroll appear using nicescroll.js */
 .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a .badge, .yit-mega-menu .yit-mega-dropdown .page-title .badge { text-transform:none; }
 
@@ -313,7 +313,7 @@
 .yit-mega-menu .yit-support-cta { margin-bottom:30px; }
 .yit-mega-menu .yit-support-cta .btn { padding:10px 20px; font-size:15px; }
 .yit-mega-menu .yit-support-cta .btn i { display: block; font-size: 25px; line-height: normal; padding:0 !important; }
-.yit-mega-menu .yit-support-cta.cta-social { background:#e91e63; padding:22px 20px; }
+.yit-mega-menu .yit-support-cta.cta-social { background:#4CAF50; padding:22px 20px; }
 .yit-mega-menu .yit-support-cta.cta-social a { font-size:17px; color:rgba(255, 255, 255, .8); width:31px; height:31px; line-height:31px; }
 .yit-mega-menu .yit-megamenu-block .row [class*="col-"] { padding-left:10px; padding-right:10px; } /* less gutter space from column */
 
@@ -331,7 +331,7 @@
 	/* Megamenu Hover State CSS BOF */
 	.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a:hover, .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a:focus,
 	.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a:active, .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a.active {
-		color: #000000; border-left:3px solid #e91e63; } /* change megamenu hover here  */
+		color: #000000; border-left:3px solid #4CAF50; } /* change megamenu hover here  */
 	.yit-mega-menu .yit-support-cta.cta-social a:hover, .yit-mega-menu .yit-support-cta.cta-social a:focus, .yit-mega-menu .yit-support-cta.cta-social a:active
 			{ color:#000; background:#fff; } /* change megamenu social hover here */
 

@@ -88,7 +88,7 @@
 .yit-search .modal-header { border-bottom:medium none; }
 .yit-search .modal-content { border:medium none; height:100vh; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; background-color:rgba(0, 0, 0, .9); }
 .yit-search .modal-dialog { width:100%; margin:0; max-width:100%; }
-.yit-search .btn-search { background: rgba(0, 0, 0, 0); border: medium none; position: absolute; right: 15px; top: 8px; color: #e91e63; font-size: 18px;
+.yit-search .btn-search { background: rgba(0, 0, 0, 0); border: medium none; position: absolute; right: 15px; top: 8px; color: #4CAF50; font-size: 18px;
  	cursor: pointer; }
 .yit-search .modal-body { height:100vh; }
 
@@ -121,11 +121,11 @@ ul.yit-common-listing li:before { content:""; font-family:'FontAwesome';  mar
 	ul.yit-listing-block li { display:block; }
 
 /*** Listing Style-1 CSS BOF ***/
-ul.yit-common-listing.style-1 li::before { background:#e91e63; border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;
+ul.yit-common-listing.style-1 li::before { background:#4CAF50; border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;
   content: ""; display: inline-block; height:5px; width:5px; top:-3px; }
 
 /*** Listing Style-2 CSS BOF ***/
-ul.yit-common-listing.style-2 li::before { border:2px solid #e91e63; border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;
+ul.yit-common-listing.style-2 li::before { border:2px solid #4CAF50; border-radius:100px; -moz-border-radius:100px; -webkit-border-radius:100px;
   content: ""; display: inline-block; height:13px; width:13px; }
 
 /*** Listing Style-3 CSS BOF ***/
@@ -187,11 +187,11 @@ ul.yit-content-listing.style-1 li:before { content:""; font-family:"themify";
 .btn.style-6 { background:none; color:inherit; }
 .btn.style-6::after, .btn.style-6::before { height: 10px; position: absolute; width: 10px; z-index: -1; content:""; -moz-transition:all .3s ease-in-out 0s;
 	-webkit-transition:all .3s ease-in-out 0s; -o-transition:all .3s ease-in-out 0s; -ms-transition:all .3s ease-in-out 0s; transition:all .3s ease-in-out 0s; }
-.btn.style-6::before { border-top: 2px solid #e91e63; border-left: 2px solid #e91e63; top: 0; left: 0; }
-.btn.style-6::after { border-bottom: 2px solid #e91e63; border-right: 2px solid #e91e63; bottom:0; right:0; top:auto; left:auto; }
+.btn.style-6::before { border-top: 2px solid #4CAF50; border-left: 2px solid #4CAF50; top: 0; left: 0; }
+.btn.style-6::after { border-bottom: 2px solid #4CAF50; border-right: 2px solid #4CAF50; bottom:0; right:0; top:auto; left:auto; }
 .btn.style-6:hover, .btn.style-6:focus, .btn.style-6:active { color:#fff; }
 .btn.style-6:hover::before, .btn.style-6:focus::before, .btn.style-6:active::before, .btn.style-6:hover::after, .btn.style-6:focus::after,
-.btn.style-6:active::after { width:100%; height:100%; background:#e91e63; }
+.btn.style-6:active::after { width:100%; height:100%; background:#4CAF50; }
 
 /*** Graident Button Style CSS BOF ***/
 .btn[class*='gradient-'] { font-size:17px; padding:13px 28px; font-weight:500; border:medium none; }
@@ -251,7 +251,7 @@ ul.yit-content-listing.style-1 li:before { content:""; font-family:"themify";
 /* Seprator Divider CSS BOF (.yit-seprator)
 ================================================== */
 hr.style-two { margin:25px auto; }
-hr.style-two::before, hr.style-two::after { background:#e91e63; content: ""; height:4px; left: 0; margin: 0 auto; position: absolute; right: 0; top:-1px; width:40px; }
+hr.style-two::before, hr.style-two::after { background:#4CAF50; content: ""; height:4px; left: 0; margin: 0 auto; position: absolute; right: 0; top:-1px; width:40px; }
 hr.style-three { height:1px; }
 hr.style-three::before { background-color:#9e9e9e; content: ""; height: 1px; left: 0; margin: 0 auto; position: absolute; right: 0; top: 5px; width: 60px; }
 hr.style-three.white-color-bg:before { background-color: #ffffff;  }
@@ -343,7 +343,7 @@ mark, del { padding:4px 8px; }
 ================================================== */
 .yit-blockquote { padding:10px 20px; border-style:none solid none solid; border-width:0 5px 0 5px; border-color:#eee; margin:15px 0; }
 .yit-blockquote cite { display:block; margin-top:5px; font-weight:500; font-size:17px; }
-.yit-blockquote.style-1 { border-right:solid 5px #e91e63; border-left:medium none; }
+.yit-blockquote.style-1 { border-right:solid 5px #4CAF50; border-left:medium none; }
 .yit-blockquote.style-2 i { display: block; font-size: 55px; }
 .yit-blockquote.style-3 i { color: rgba(0, 0, 0, 0.1); display: block; font-size: 115px; position: absolute; right: 0; top: 0; }
 .yit-blockquote.style-4 { border:medium none; }
@@ -675,7 +675,7 @@ footer .yit-twitter .owl-theme .owl-nav.disabled + .owl-dots, footer .yit-twitte
 ================================================== */
 .yit-breadcrumb ul li:after { content:"/"; padding:0 10px; }
 .yit-breadcrumb ul li:last-child:after { display:none !important; }
-.yit-breadcrumb ul li.active { color:#e91e63; }
+.yit-breadcrumb ul li.active { color:#4CAF50; }
 
 	/* Breadcrumb Light Style CSS BOF */
 	.yit-breadcrumb.light ul li:after { color:rgb(255, 255, 255, .6); }
@@ -706,8 +706,8 @@ footer .yit-twitter .owl-theme .owl-nav.disabled + .owl-dots, footer .yit-twitte
 
 	/* Pagination Style CSS BOF */
 	.yit-pagination.style-1 .page-item { margin:0; }
-	.yit-pagination .page-link { border:solid 1px #e91e63; color:#e91e63; }
-	.yit-pagination .page-link:hover { background-color:#e91e63; color:#fff; }
+	.yit-pagination .page-link { border:solid 1px #4CAF50; color:#4CAF50; }
+	.yit-pagination .page-link:hover { background-color:#4CAF50; color:#fff; }
 
 /* User Navigation Style CSS BOF (.yit-user-navigate)
 ================================================== */
@@ -727,7 +727,7 @@ footer .yit-twitter .owl-theme .owl-nav.disabled + .owl-dots, footer .yit-twitte
 .yit-timeline .yit-timeline-item.l-item { margin-right:25px; margin-top:50px; }
 
 	/* Indicator CSS BOF */
-	.yit-timeline .yit-timeline-item.l-item::after, .yit-timeline .yit-timeline-item.r-item::after { background: #ffffff; border: 2px solid #e91e63; border-radius: 100px;
+	.yit-timeline .yit-timeline-item.l-item::after, .yit-timeline .yit-timeline-item.r-item::after { background: #ffffff; border: 2px solid #4CAF50; border-radius: 100px;
 		-moz-border-radius: 100px; -webkit-border-radius: 100px; box-shadow: 0 0 0 5px #ffffff; -moz-box-shadow: 0 0 0 5px #ffffff; -webkit-box-shadow: 0 0 0 5px #ffffff; content: "";
 		height: 20px; position: absolute; width: 20px; top:18px; }
 	.yit-timeline .yit-timeline-item.l-item::after { right:-50px; }
@@ -753,7 +753,7 @@ footer .yit-twitter .owl-theme .owl-nav.disabled + .owl-dots, footer .yit-twitte
 
 /* Navpills Style CSS BOF (.yit-nav-pills)
 ================================================== */
-.yit-nav-pills.nav-pills .nav-link.active, .yit-nav-pills.nav-pills .show > .nav-link { background-color: #e91e63; color: #ffffff; }
+.yit-nav-pills.nav-pills .nav-link.active, .yit-nav-pills.nav-pills .show > .nav-link { background-color: #4CAF50; color: #ffffff; }
 
 /* Animation Style CSS BOF (.yit-animate-item)
 ================================================== */
@@ -783,7 +783,7 @@ footer .yit-twitter .owl-theme .owl-nav.disabled + .owl-dots, footer .yit-twitte
 /* Table Style CSS BOF (.yit-badge)
 ================================================== */
 .yit-table.style-1 .table { text-align:center; }
-.yit-table.style-2 .table thead th { border-top:solid 3px #e91e63; }
+.yit-table.style-2 .table thead th { border-top:solid 3px #4CAF50; }
 .yit-table .table-hover tr { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
 
 /* Nice Scrollbar Style CSS BOF (.yit-nice-scroll)
@@ -963,8 +963,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); display:none; }
 .yit-textfade-slider .text-highlight { background: rgba(0, 0, 0, 0.5); display: table; margin: 0 auto; padding:25px; position:relative; }
 .yit-textfade-slider .text-highlight::before, .yit-textfade-slider .text-highlight::after { border-width:3px; border-style:solid; content: ""; height: 30px;
-	left:0; position: absolute; top: 0; width: 30px; border-color:#e91e63 transparent transparent #e91e63; }
-.yit-textfade-slider .text-highlight::after { right:0; bottom:0; border-color:transparent #e91e63 #e91e63 transparent; left:auto; top:auto; }
+	left:0; position: absolute; top: 0; width: 30px; border-color:#4CAF50 transparent transparent #4CAF50; }
+.yit-textfade-slider .text-highlight::after { right:0; bottom:0; border-color:transparent #4CAF50 #4CAF50 transparent; left:auto; top:auto; }
 
 .yit-textfade-slider .bg-fade-overlay:before
 {
@@ -1016,11 +1016,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 	/* Pagination Control CSS BOF */
 	.yit-swiper-slider .swiper-pagination.style-1 .swiper-pagination-bullet { opacity:.5; }
 	.yit-swiper-slider .swiper-pagination.style-1 .swiper-pagination-bullet { width:12px; height:12px; }
-	.yit-swiper-slider .swiper-pagination.style-1 .swiper-pagination-bullet-active { background:#e91e63; opacity:1; }
+	.yit-swiper-slider .swiper-pagination.style-1 .swiper-pagination-bullet-active { background:#4CAF50; opacity:1; }
 	.yit-swiper-slider .swiper-pagination.style-2-verticle { bottom:190px; }
 	.yit-swiper-slider .swiper-pagination.style-2-verticle .swiper-pagination-bullet { opacity:.5; background-color:#fff; }
 	.yit-swiper-slider .swiper-pagination.style-2-verticle .swiper-pagination-bullet { width:25px; height:5px; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
-	.yit-swiper-slider .swiper-pagination.style-2-verticle .swiper-pagination-bullet-active { background:#e91e63; opacity:1; }
+	.yit-swiper-slider .swiper-pagination.style-2-verticle .swiper-pagination-bullet-active { background:#4CAF50; opacity:1; }
 
 /*** Responsive Swiper Slider CSS BOF ***/
 @media(max-width:767px){
@@ -1032,7 +1032,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 /* Full Page CSS BOF (.yit-fullpage)
 =================================================== */
-.full-page-js #fp-nav ul, .full-page-js .fp-slidesNav ul { background:#e91e63; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius: 20px; margin: 0;
+.full-page-js #fp-nav ul, .full-page-js .fp-slidesNav ul { background:#4CAF50; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius: 20px; margin: 0;
 	padding: 15px 5px; }
 .full-page-js #fp-nav ul li, .full-page-js .fp-slidesNav ul li 	{ margin:10px 7px; }
 .full-page-js #fp-nav ul li a span, .full-page-js .fp-slidesNav ul li a span { background:rgba(255, 255, 255, .7); width:7px; height:7px; left:0; right:0; margin:0 auto; top:5px; }

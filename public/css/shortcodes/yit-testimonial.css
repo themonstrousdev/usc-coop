@@ -50,7 +50,7 @@
 .yit-testimonial.style-2 .yit-thumbnail img { margin:10px auto; }
 .yit-testimonial.style-2 .yit-item { background: #ffffff; margin:40px 0 30px; padding: 15px;  position: relative; transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s; -webkit-transition: all 0.5s ease-in-out 0s; -o-transition: all 0.5s ease-in-out 0s; -ms-transition: all 0.5s ease-in-out 0s; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); }
-.yit-testimonial.style-2 .yit-item::after, .yit-testimonial.style-2 .yit-item::before { background: #e91e63; content: ""; height:3px;  left: 0; margin: 0 auto; position: absolute;
+.yit-testimonial.style-2 .yit-item::after, .yit-testimonial.style-2 .yit-item::before { background: #4CAF50; content: ""; height:3px;  left: 0; margin: 0 auto; position: absolute;
 	right: 0; transition: all 0.5s ease-in-out 0s; -moz-transition: all 0.5s ease-in-out 0s; -webkit-transition: all 0.5s ease-in-out 0s; -o-transition: all 0.5s ease-in-out 0s;
 	-ms-transition: all 0.5s ease-in-out 0s; width: 100px; }
 .yit-testimonial.style-2 .yit-item::after { bottom: 0; }
@@ -84,32 +84,32 @@
 /*** YIT Style-6 CSS BOF ***/
 .yit-testimonial.style-6 .yit-img { padding:3px; border-style:solid; border-width:2px; }
 .yit-testimonial.style-6 .yit-content { overflow: hidden; }
-.yit-testimonial.style-6 .yit-item { margin-bottom: 20px; padding:20px;  position: relative; -moz-transition:all .5s ease-in-out 0s; border:1px dashed #e91e63;
+.yit-testimonial.style-6 .yit-item { margin-bottom: 20px; padding:20px;  position: relative; -moz-transition:all .5s ease-in-out 0s; border:1px dashed #4CAF50;
 	-webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; z-index: 0; }
 .yit-testimonial.style-6 .yit-item::after { bottom: -11px; content: "";  right: -11px; }
 .yit-testimonial.style-6 .yit-item::before, .yit-testimonial.style-6 .yit-item::after { content: "";  height: 20px; position: absolute; transition: all 0.5s ease-in-out 0s; width: 20px;
-	-moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; background:#e91e63 }
+	-moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; background:#4CAF50 }
 .yit-testimonial.style-6 .yit-item::before { left: -10px; top: -10px; }
 .yit-testimonial.style-6 .yit-item:hover:before { left:10px; }
 .yit-testimonial.style-6 .yit-item:hover:after { right:10px; }
 
 /*** YIT Style-7 CSS BOF ***/
-.yit-testimonial.style-7 .yit-img { padding:3px; margin:10px auto; width:200px; height:200px; border:solid 2px #e91e63; }
+.yit-testimonial.style-7 .yit-img { padding:3px; margin:10px auto; width:200px; height:200px; border:solid 2px #4CAF50; }
 .yit-testimonial.style-7 .yit-thumbnail { display: table; margin: 0 auto; position: relative; }
-.yit-testimonial.style-7 .yit-quote { background:#e91e63; border: 3px solid #ffffff; color: #ffffff; font-size: 25px;  height: 60px; line-height: 55px; margin: 0 auto;
+.yit-testimonial.style-7 .yit-quote { background:#4CAF50; border: 3px solid #ffffff; color: #ffffff; font-size: 25px;  height: 60px; line-height: 55px; margin: 0 auto;
 	position: absolute; right: -30px; text-align: center;  top: 50%; -moz-transform: translate(0px, -50%); -webkit-transform: translate(0px, -50%); -o-transform:
 	translate(0px, -50%); -ms-transform: translate(0px, -50%); transform: translate(0px, -50%); width: 60px; }
 
 /*** YIT Style-8 CSS BOF ***/
 .yit-testimonial.style-8 .yit-content { background:#fff; position:relative; margin-bottom:20px; -moz-box-shadow:0 11px 15px 0 rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow:0 11px 15px 0 rgba(0, 0, 0, 0.3); box-shadow:0 11px 15px 0 rgba(0, 0, 0, 0.3); }
-.yit-testimonial.style-8 .yit-img { padding:3px; margin:0 auto 5px; border:solid 1px #e91e63; width:70px; height:70px; }
+.yit-testimonial.style-8 .yit-img { padding:3px; margin:0 auto 5px; border:solid 1px #4CAF50; width:70px; height:70px; }
 .yit-testimonial.style-8 .yit-thumbnail { padding: 15px 20px 0; position:relative; }
 .yit-testimonial.style-8 .yit-desc { padding: 10px 20px; }
 .yit-testimonial.style-8 .yit-info { background: #ededed; padding: 15px 20px; position:relative; }
 .yit-testimonial.style-8 .yit-info::after { bottom:0; color: rgba(0, 0, 0, 0.2); content:""; font-family:"fontawesome"; font-size:45px; position: absolute;
 	right: 10px; }
-.yit-testimonial.style-8 .yit-thumbnail::before { content: ""; height: 43px;left: 0;position: absolute;top: 27px;width: 5px; background:#e91e63; }
+.yit-testimonial.style-8 .yit-thumbnail::before { content: ""; height: 43px;left: 0;position: absolute;top: 27px;width: 5px; background:#4CAF50; }
 .yit-testimonial .owl-carousel .owl-item img { display:inline-block; }
 
 /*** YIT Style-9 CSS BOF ***/
@@ -145,7 +145,7 @@
 .yit-testimonial.style-11 .yit-item h3:after { right:0; background-image:url(../../images/quote2.png); }
 .yit-testimonial.style-11 .owl-theme .owl-nav.disabled + .owl-dots { position:absolute; right:0; top:40px; }
 .yit-testimonial.style-11 .owl-theme .owl-dots .owl-dot span { width:15px; height:15px; border:2px solid #d6d6d6; background:none; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
-.yit-testimonial.style-11 .owl-theme .owl-dots .owl-dot.active span, .yit-testimonial.style-11 .owl-theme .owl-dots .owl-dot:hover span { border:2px solid #e91e63; }
+.yit-testimonial.style-11 .owl-theme .owl-dots .owl-dot.active span, .yit-testimonial.style-11 .owl-theme .owl-dots .owl-dot:hover span { border:2px solid #4CAF50; }
 
 /***  Carousel Control CSS BOF ***/
 .yit-testimonial .owl-theme .owl-nav [class*="owl-"] { -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; font-size:30px; line-height:40px;height:45px; width:45px; padding:0; }

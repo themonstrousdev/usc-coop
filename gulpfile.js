@@ -1,52 +1,64 @@
-var gulp        = require('gulp');
-var browserSync = require('browser-sync').create();
-var sass        = require('gulp-sass');
+const gulp = require('gulp'),
+      sass = require('gulp-sass'),
+      postcss = require('gulp-postcss'),
+      autoprefixer = require('autoprefixer'),
+      cssnano = require('cssnano'),
+      sourcemaps = require('gulp-sourcemaps'),
+      nodemon = require('gulp-nodemon'),
+      browserSync = require('browser-sync').create();
 
-// Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+let paths = {
+    styles: {
+        src: "public/scss/*.scss",
+        dest: "public/css"
+    }
+};
 
-    browserSync.init({
-        server: "./app"
+function style() {
+    return (
+        gulp
+            .src(paths.styles.src)
+            .pipe(sourcemaps.init())
+            .pipe(sass())
+            .on("error", sass.logError)
+            .pipe(postcss([autoprefixer(), cssnano()]))
+            .pipe(sourcemaps.write())
+            .pipe(gulp.dest(paths.styles.dest))
+            .pipe(browserSync.stream())
+    )
+}
+
+function reload() {
+    browserSync.reload();
+}
+
+function server(cb) {
+    var started = false;
+
+    return nodemon({
+        script: 'app.js'
+    }).on('start', function() {
+        if(!started) {
+            cb();
+            started = true;
+        }
+    })
+}
+
+function browserStart() {
+    browserSync.init(null, {
+        proxy: "localhost:3000",
+        files: ["public/**/*.*", "views/**/*.**"],
+        port: 7000
     });
+}
 
-    gulp.watch("app/scss/*.scss", ['sass']);
-    gulp.watch("app/*.html").on('change', browserSync.reload);
-});
+function watch() {
+    
+    server(browserStart);
 
-// Compile sass into CSS & auto-inject into browsers
-gulp.task('sass', function() {
-    return gulp.src("app/scss/*.scss")
-        .pipe(sass())
-        .pipe(gulp.dest("app/css"))
-        .pipe(browserSync.stream());
-});
+    gulp.watch(paths.styles.src, style);
+    gulp.watch("views/**/*.ejs", reload);
+}
 
-// process JS files and return the stream.
-gulp.task('js', function () {
-  return gulp.src('js/*js')
-      .pipe(browserify())
-      .pipe(uglify())
-      .pipe(gulp.dest('dist/js'));
-});
-
-// create a task that ensures the `js` task is complete before
-// reloading browsers
-gulp.task('js-watch', ['js'], function (done) {
-  browserSync.reload();
-  done();
-});
-
-// use default task to launch Browsersync and watch JS files
-gulp.task('default', ['serve', 'js'], function(){
-  
-  // Serve files from the root of this project
-  browserSync.init({
-      server: {
-          baseDir: "./"
-      }
-  });
-
-  // add browserSync.reload to the tasks array to make
-  // all browsers reload after tasks are complete.
-  gulp.watch("js/*.js", ['js-watch']);
-});
+exports.default = watch;

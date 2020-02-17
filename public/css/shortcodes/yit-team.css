@@ -90,7 +90,7 @@
 	-ms-transform:scale(1) translateY(0px); -moz-transform:scale(1) translateY(0px); transform:scale(1) translateY(0px); opacity:1; }
 
 /*** Team Style-5 CSS BOF ***/
-.yit-team.style-5 .yit-team-item { padding:5px; border-top:solid 3px #e91e63; padding:15px 0; }
+.yit-team.style-5 .yit-team-item { padding:5px; border-top:solid 3px #4CAF50; padding:15px 0; }
 .yit-team.style-5 .yit-team-item img { border-bottom:solid 1px rgba(0, 0, 0, .1); }
 
 /*** Team Style-6 CSS BOF ***/

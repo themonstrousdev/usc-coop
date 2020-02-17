@@ -44,20 +44,20 @@
 /*** Input Style-1 CSS BOF ***/
 .input-style-1 .form-control{ border-width:0 0 2px 0; border-style:none none solid none; border-color:transparent transparent #ced4da transparent;
 	border-width:0 0 2px 0; border-style:none none solid none; border-color:transparent transparent #ced4da transparent; padding:10px 0; }
-.input-style-1 .form-control:focus{ border-color:#e91e63; }
+.input-style-1 .form-control:focus{ border-color:#4CAF50; }
 .input-style-1 .has-error .form-control { border-color:#f00; }
 .input-style-1 .success .form-control  { border-color:#14CC25; }
 .input-style-1 .yit-nice-select.nice-select.form-control { padding:2px 0; }
 
 /*** Input Style-2 CSS BOF ***/
 .input-style-2 .form-control { border-width:1px 1px 1px 2px; border-style:solid; border-color:#ced4da; }
-.input-style-2 .form-control:focus{ border-color:#e91e63; }
+.input-style-2 .form-control:focus{ border-color:#4CAF50; }
 .input-style-2 .has-error .form-control { border-color:#f00; }
 .input-style-2 .success .form-control  { border-color:#14CC25; }
 
 /*** Input Style-3 CSS BOF ***/
 .input-style-3 .form-control { border-width:0 0 1px 2px; border-style:solid; border-color:#ced4da; }
-.input-style-3 .form-control:focus { border-color:#e91e63; }
+.input-style-3 .form-control:focus { border-color:#4CAF50; }
 .input-style-3 .has-error .form-control { border-color:#f00; }
 .input-style-3 .success .form-control  { border-color:#14CC25; }
 
@@ -70,9 +70,9 @@
 
 /*** Input Style-5 CSS BOF ***/
 .input-style-5 .form-control { box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3); -moz-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3);
-	-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3); ) }
+	-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3); }
 .input-style-5 .form-control:focus { box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3); -moz-box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3);
-	-webkit-box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3); ) }
+	-webkit-box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3);}
 .input-style-5 .has-error .form-control { border-color:#f00; }
 .input-style-5 .success .form-control  { border-color:#14CC25; }
 
@@ -93,7 +93,7 @@
 /*** Input With Icon CSS BOF  ***/
 .form-group .input-icon { position:absolute; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s;
 	-ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; left:20px; top:13px; font-size:20px; }
-.form-control:focus + .input-icon { color:#e91e63; }
+.form-control:focus + .input-icon { color:#4CAF50; }
 
 /*** Input With Stacked Label CSS BOF ***/
 .form-group .input-label { position:absolute; -moz-transition:all .3s ease-in-out 0s; -webkit-transition:all .3s ease-in-out 0s; -o-transition:all .3s ease-in-out 0s;
@@ -106,7 +106,7 @@
 .form-group .input-bar, .bar:after, .input-style-4.form-group .input-bar:after { background:#eaedf1;
 	width:0; height:2px; left:0; right:0; margin:0 auto; position:absolute; transition:width 0.2 ease-in-out 0s; -moz-transition:width 0.2s ease-in-out 0s;
 	-webkit-transition:width 0.2s ease-in-out 0s; bottom:0; -o-transition:width 0.2s ease-in-out 0s; -ms-transition:width 0.2s ease-in-out 0s; z-index:0; }
-.form-control:focus + .input-bar { width:100%; background:#e91e63; }
+.form-control:focus + .input-bar { width:100%; background:#4CAF50; }
 
 /*** Input Light Color CSS BOF ***/
 .input-light .form-control { color:#fff; }
@@ -119,14 +119,14 @@
 .yit-nice-select.nice-select.form-control::after { width:12px; height:12px; border-bottom:3px solid #999999; border-right:3px solid #999999; right:20px; top:40%; }
 .yit-nice-select.nice-select.form-control .list { width:100%; }
 .yit-nice-select.nice-select .option { display:block; color:#333; }
-.yit-nice-select.nice-select:active, .yit-nice-select.nice-select.open, .yit-nice-select.nice-select:focus {  border-color:#e91e63; }
+.yit-nice-select.nice-select:active, .yit-nice-select.nice-select.open, .yit-nice-select.nice-select:focus {  border-color:#4CAF50; }
 
 /*** Date &amp; Time Picker CSS BOF ***/
 .yit-datetime-picker .bootstrap-datetimepicker-widget a[data-action] { padding:0; }
 .yit-datetime-picker .bootstrap-datetimepicker-widget .btn { background:none; color:#333; border:none; }
 .yit-datetime-picker .bootstrap-datetimepicker-widget .picker-switch td span { padding:0 10px; }
-.yit-datetime-picker .bootstrap-datetimepicker-widget table td.active, .yit-datetime-picker .bootstrap-datetimepicker-widget table td.active:hover { background-color:#e91e63; }
-.yit-datetime-picker .input-group-text { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:medium none; background-color:#e91e63; color:#fff; }
+.yit-datetime-picker .bootstrap-datetimepicker-widget table td.active, .yit-datetime-picker .bootstrap-datetimepicker-widget table td.active:hover { background-color:#4CAF50; }
+.yit-datetime-picker .input-group-text { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:medium none; background-color:#4CAF50; color:#fff; }
 
 /*** Responsive Select Box CSS BOF ***/
 @media (max-width:767px){

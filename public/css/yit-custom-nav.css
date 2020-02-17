@@ -129,12 +129,12 @@
 .yit-custom-nav-3 .toggle-nav .toggle-sitenav li { display:block; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
 	-o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;  transition:all .5s ease-in-out 0s; }
 .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a { font-size:45px; position: relative; color:rgb(255, 255, 255, .7); padding-right:20px; }
-.yit-custom-nav-3 .toggle-nav .toggle-sitenav li span { font-size: 23px; font-weight: 300; .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li span { font-size: 23px; font-weight: 300; transition: .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
 	-o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;  transition:all .5s ease-in-out 0s; opacity:0; visibility:hidden; }
 
 	/*** Toogle Button CSS BOF ***/
 	.yit-custom-nav-3 .nav-toggle-bar { bottom: 0; height:20px; margin: auto; position: absolute; right:30px; top: 0; width: 40px; z-index: 999; }
-	.yit-custom-nav-3 .nav-toggle-bar .bar-1, .yit-custom-nav-3 .nav-toggle-bar .bar-2, .yit-custom-nav-3 .nav-toggle-bar .bar-3 { background-color: #e91e63;
+	.yit-custom-nav-3 .nav-toggle-bar .bar-1, .yit-custom-nav-3 .nav-toggle-bar .bar-2, .yit-custom-nav-3 .nav-toggle-bar .bar-3 { background-color: #4CAF50;
 		float: right; height: 2px; margin-bottom: 8px; width: 100%; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
 		-o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
 	.yit-custom-nav-3 .nav-toggle-bar .bar-3 { width:60%; }
@@ -156,7 +156,7 @@
 			.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:hover, .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:focus,
 			.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:active, .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a.active { color:#fff;
 				text-decoration:underline; }
-			.yit-custom-nav-3 .toggle-nav .toggle-sitenav li:hover span { color: #e91e63; opacity: 1; visibility: visible; }
+			.yit-custom-nav-3 .toggle-nav .toggle-sitenav li:hover span { color: #4CAF50; opacity: 1; visibility: visible; }
 
 /*** Custom Nav Style-4 CSS BOF ***/
 .yit-custom-nav-4.left-side-nav .logo { position:absolute; left:15px; text-align:center; bottom:20px; }
@@ -227,12 +227,12 @@
 .yit-custom-nav-3d.right-side-nav .nav-inner-content { margin-top:65px; }
 .yit-custom-nav-3d.right-side-nav .yit-custom-nav-listing li { border-width:0 1px 1px 0; border-style:solid; border-color:transparent #fff #fff transparent; }
 .yit-custom-nav-3d.right-side-nav .yit-nav-item { min-height:250px; height:calc((100vh - 160px) / 2); display:block; text-align:center; }
-.yit-custom-nav-3d.right-side-nav .yit-nav-item svg { stroke:#e91e63; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item svg { stroke:#4CAF50; }
 .yit-custom-nav-3d.right-side-nav .yit-nav-item span { display:block; margin:10px auto; font-size:20px; font-weight:300; }
 .yit-custom-nav-3d.right-side-nav .yit-nav-item .nav-item-disp-table { display:table; height:100%; width:100%; padding-left:15px; padding-right:15px; }
 .yit-custom-nav-3d.right-side-nav .yit-nav-item .nav-item-disp-cell { display:table-cell; vertical-align:middle; }
 .yit-custom-nav-3d.right-side-nav .yit-nav-item .icon { font-size:50px; }
-.yit-custom-nav-3d.right-side-nav .yit-nav-item:hover { background:#e91e63; color:#fff; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item:hover { background:#4CAF50; color:#fff; }
 .yit-custom-nav-3d.right-side-nav .yit-nav-item:hover svg { stroke:#fff; }
 .yit-custom-nav-3d.right-side-nav, .yit-custom-nav-3d.right-side-nav .yit-nav-item svg { transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s; -webkit-transition: all 0.4s ease-in-out 0s;
 	-o-transition: all 0.4s ease-in-out 0s; -ms-transition: all 0.4s ease-in-out 0s; }
@@ -245,8 +245,8 @@
 .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item { display:block; color:rgba(255, 255, 255, .7);; height:230px; position:relative; font-weight:300; text-transform:uppercase; height:230px; margin:25px auto; background:rgba(0, 0, 0, .1); }
 .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::before, .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::after { content: ""; height: 10px;
 	position: absolute; width: 10px; }
-.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::after { border-bottom:1px solid #e91e63; border-right:1px solid #e91e63; bottom: 0; right: 0; }
-.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::before { border-left:1px solid #e91e63; border-top:1px solid #e91e63; left: 0; top: 0; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::after { border-bottom:1px solid #4CAF50; border-right:1px solid #4CAF50; bottom: 0; right: 0; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::before { border-left:1px solid #4CAF50; border-top:1px solid #4CAF50; left: 0; top: 0; }
 .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item i { display:block; font-size:40px; }
 .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item span { margin:10px auto; display:block; font-size:18px; }
 .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item .nav-item-disp-table { display: table; height: 100%; padding-left: 15px; padding-right: 15px; width: 100%; }
@@ -258,7 +258,7 @@
 .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item:hover { color:#fff; }
 
 /*** Custom Full Menu Style CSS BOF ***/
-.yit-custom-fade-full-menu .nav-toggle-bar [class*="bar-"] { background:#e91e63 }
+.yit-custom-fade-full-menu .nav-toggle-bar [class*="bar-"] { background:#4CAF50 }
 .yit-custom-fade-full-menu .yit-custom-nav-listing .nav-item { font-size:25px; border-left:3px solid rgba(0, 0, 0, 0.1); padding-left:15px; }
 .yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown-menu li { line-height:30px; padding-left:35px; padding-right:35px; }
 .yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown { position:relative; margin:15px 0; }
@@ -286,12 +286,12 @@
 
 	/* Appear JS Clas */
 	.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:hover, .yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:focus,
-	.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:active, .yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a.active { color:#e91e63; }
+	.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:active, .yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a.active { color:#4CAF50; }
 	.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .yit-nav-dropdown.js-nav-active .yit-nav-dropdown-menu { display:block; }
 	.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .js-nav-active.yit-nav-dropdown::after { content:""; }
 
 /*** Custom Toogle Button CSS BOF (for all navigation) ***/
-.nav-toggle-bar.yit-custom-toggle-icon { background:#e91e63; height:100%; padding:5px 22px; position:absolute; right:0; text-align:center; top:0; z-index:1; display:block; z-index:100; }
+.nav-toggle-bar.yit-custom-toggle-icon { background:#4CAF50; height:100%; padding:5px 22px; position:absolute; right:0; text-align:center; top:0; z-index:1; display:block; z-index:100; }
 .nav-toggle-bar.yit-custom-toggle-icon span { width:25px; height:2px; display:block; margin:5px auto; background:#fff; position:relative; top:25px; }
 .nav-toggle-bar.yit-custom-toggle-icon i { font-size:25px; opacity:0; visibility:hidden; }
 .nav-toggle-bar.yit-custom-toggle-icon span, .nav-toggle-bar.yit-custom-toggle-icon i { transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s;

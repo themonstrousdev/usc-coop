@@ -35,9 +35,9 @@
 
 /*** Portfolio Tab Style CSS BOF ***/
 .filter-tab.yit-portfolio-tab-3 .btn, .masonry-filter-tab.yit-portfolio-tab-3 .btn, .metro-filter-tab.yit-portfolio-tab-3 .btn { background:none; border-width:2px 0 2px 0; border-style:solid none solid none; border-color:transparent; color:rgba(0,0,0, .6); }
-.filter-tab.yit-portfolio-tab-3 .btn:hover, .masonry-filter-tab.yit-portfolio-tab-3 .btn:hover, .metro-filter-tab.yit-portfolio-tab-3 .btn:hover { border-color:#e91e63 transparent #e91e63 transparent; color:#e91e63; }
+.filter-tab.yit-portfolio-tab-3 .btn:hover, .masonry-filter-tab.yit-portfolio-tab-3 .btn:hover, .metro-filter-tab.yit-portfolio-tab-3 .btn:hover { border-color:#4CAF50 transparent #4CAF50 transparent; color:#4CAF50; }
 .filter-tab.yit-portfolio-tab-4 .btn, .masonry-filter-tab.yit-portfolio-tab-4 .btn, .metro-filter-tab.yit-portfolio-tab-4 .btn { background:none; border-width:0 0 2px 0; border-style:none none solid none; border-color:transparent; color:rgba(0,0,0, .6); }
-.filter-tab.yit-portfolio-tab-4 .btn:hover, .masonry-filter-tab.yit-portfolio-tab-4 .btn:hover, .metro-filter-tab.yit-portfolio-tab-4 .btn:hover { border-color:transparent transparent #e91e63 transparent; color:#e91e63; }
+.filter-tab.yit-portfolio-tab-4 .btn:hover, .masonry-filter-tab.yit-portfolio-tab-4 .btn:hover, .metro-filter-tab.yit-portfolio-tab-4 .btn:hover { border-color:transparent transparent #4CAF50 transparent; color:#4CAF50; }
 
 /*** Portfolio Style-1 CSS BOF ***/
 .yit-portfolio.style-1 .yit-portfolio-item { margin-bottom:20px; overflow:hidden; position:relative; }
@@ -252,7 +252,7 @@
 	-webkit-transform: translate3d(40%, 0px, 0px); -o-transform: translate3d(40%, 0px, 0px);  -ms-transform: translate3d(40%, 0px, 0px);
 	transition: transform 0.35s cubic-bezier(0.15, 0.7, 0.54, 0.99) 0.1s, opacity 0.6s ease 0s; -moz-transition: transform 0.35s cubic-bezier(0.15, 0.7, 0.54, 0.99) 0.1s, opacity 0.6s ease 0s;
 	-webkit-transition: transform 0.35s cubic-bezier(0.15, 0.7, 0.54, 0.99) 0.1s, opacity 0.6s ease 0s; -o-transition: transform 0.35s cubic-bezier(0.15, 0.7, 0.54, 0.99) 0.1s, opacity 0.6s ease 0s;
-	-ms-transition: transform 0.35s cubic-bezier(0.15, 0.7, 0.54, 0.99) 0.1s, opacity 0.6s ease 0s; background:#e91e63; padding:10px; }
+	-ms-transition: transform 0.35s cubic-bezier(0.15, 0.7, 0.54, 0.99) 0.1s, opacity 0.6s ease 0s; background:#4CAF50; padding:10px; }
 .yit-home-scroll-portfolio .portfolio-hover h2 { font-size:30px; position: relative; color:#fff; }
 .yit-home-scroll-portfolio .portfolio-hover h2::before { background:#fff; bottom:0; content: ""; display: block; height: 5px; left:0; position: absolute; width: 10%; }
 .yit-home-scroll-portfolio .portfolio-item img { filter:grayscale(1); -moz-filter:grayscale(1); -webkit-filter:grayscale(1); -o-filter:grayscale(1); -ms-filter:grayscale(1); }
@@ -264,7 +264,7 @@
 
 	/* Scrollbar Control CSS BOF */
 	.yit-home-scroll-portfolio .swiper-container-horizontal > .swiper-scrollbar { height:5px; left:0; width:100%; }
-	.yit-home-scroll-portfolio .swiper-scrollbar { background:#e91e63; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+	.yit-home-scroll-portfolio .swiper-scrollbar { background:#4CAF50; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
 	.yit-home-scroll-portfolio .swiper-scrollbar-drag { background:#fff; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
 
 	/* Hover State CSS BOF */

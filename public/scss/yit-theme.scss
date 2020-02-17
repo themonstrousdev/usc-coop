@@ -328,9 +328,9 @@ h1, h2, h3, h4, h5, h6 { @include heading; font-family:$primary-heading; font-we
 }
 .btn-pink-border
 {
-	background:transparent; border:solid 1px $pink-color; color:$pink-color;
+	background:transparent; border:solid 1px $green-color; color:$green-color;
 	&:hover, &:focus, &:active, &.active {
-		background:$pink-color; color:$white-color;
+		background:$green-color; color:$white-color;
 	}
 }
 .btn-blue-border
@@ -498,7 +498,7 @@ h1, h2, h3, h4, h5, h6 { @include heading; font-family:$primary-heading; font-we
 }
 .link-pink
 {
-	color:$pink-color;
+	color:$green-color;
 	&:hover, &:focus, &:active, &.active {
 		color:$dark-pink-color;
 	}
@@ -587,7 +587,7 @@ h1, h2, h3, h4, h5, h6 { @include heading; font-family:$primary-heading; font-we
 .input-rect-rounded .form-control, .input-rect-rounded.form-control { @include border-radius(30px) }
 .input-shadow .form-control, .input-shadow.form-control { @include box-shadow(0 1px 5px 0 rgba(0, 0, 0, 0.1)); }
 .input-light .form-control { border-color:rgba(255, 255, 255, .2) !important; }
-.input-light .form-control:focus { border-color:$pink-color !important; }
+.input-light .form-control:focus { border-color:$green-color !important; }
 
 /* Input Light Placeholder CSS BOF */
 .common-form.input-light .form-control::placeholder { color:rgba(255, 255, 255, .7); opacity:.5; }
@@ -621,7 +621,7 @@ h1, h2, h3, h4, h5, h6 { @include heading; font-family:$primary-heading; font-we
 }
 .input-pink-border .form-control
 {
-	border-color:$pink-color;
+	border-color:$green-color;
 	&:focus {
 		border-color:$dark-pink-color;
 	}

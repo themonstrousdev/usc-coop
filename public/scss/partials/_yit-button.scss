@@ -1,6 +1,6 @@
 // Button BOF
-@mixin button  { background:$pink-color; color:$white-color; padding:12px 22px; }
-@mixin button-border { border:solid 1px $pink-color; color:$pink-color; background:none; }
+@mixin button  { background:$green-color; color:$white-color; padding:12px 22px; }
+@mixin button-border { border:solid 1px $green-color; color:$green-color; background:none; }
 
 .btn {
 	@include button;
@@ -8,7 +8,7 @@
 	@include box-shadow (none);
 		&:hover, &:focus, &:active, &.active
 		{
-			background:$dark-pink-color;
+			background:$dark-green-color;
 			color:$white-color;
 			@include box-shadow (none);
 		}
