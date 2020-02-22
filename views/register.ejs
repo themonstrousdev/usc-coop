@@ -1,0 +1,85 @@
+<%- include("./includes/header"); %>
+<%- include("includes/navbar-fixed"); %>
+<div class="inner-banner-xxxsmall banner-fixed-top-small space-grey-light-color-bg">
+</div>
+
+<section class="space-grey-light-color-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="text-center">
+          <h5>Register</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- /Form BOC -->
+    <div class="yit-cotact-form common-form mt-40 input-style-4 mx-15">
+      <form>
+        <div class="row justify-content-end">
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group control-group">
+              <input name="firstname" placeholder="First Name" class="form-control" type="text">
+              <div class="input-bar"></div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group control-group">
+              <input name="lastname" placeholder="Last Name" class="form-control" type="text">
+              <div class="input-bar"></div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group control-group">
+              <input name="email" placeholder="Email" class="form-control" type="email">
+              <div class="input-bar"></div>
+            </div>
+          </div>
+          <div class="col-xl-12 col-md-12 col-lg-12"></div>
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group control-group">
+              <input name="username" placeholder="Username" class="form-control" type="text">
+              <div class="input-bar"></div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group control-group">
+              <input name="password" placeholder="Password" class="form-control" type="password">
+              <div class="input-bar"></div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group control-group">
+              <input name="confirm" placeholder="Confirm" class="form-control" type="password">
+              <div class="input-bar"></div>
+            </div>
+          </div>
+          <div class="col-xl-12 col-md-12 col-lg-12"></div>
+          <div class="col-xl-4 col-md-4 col-lg-4">
+            <div class="form-group">
+              <select class="yit-nice-select width-full form-control">
+                <option data-display="Select Organization">Select Organization</option>
+                <% if (locals.orgs && orgs.length > 0) { %>
+                  <% orgs.forEach(org => { %>
+                    <option value="<%- org.id %>"><%- org.orgName %></option>
+                  <% }) %>
+                <% } %>
+              </select>
+            </div>
+          </div>
+          <div class="col-xl-12 col-md-12 col-lg-12"></div>
+          <div class="col-xl-6 col-md-6 col-lg-6 col-6 mt-40">
+            <div class="form-group">
+              <input name="btn-submit" class="btn btn-block control-group" value="Submit" type="submit">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- /Form EOC -->
+
+  </div>
+</section>
+<%- include("includes/contact"); %>
+<%- include("./includes/footer"); %>
+<%- include("includes/end") %>

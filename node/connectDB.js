@@ -5,9 +5,10 @@ let con = sql.createConnection({
         host: "localhost",
         user: "root",
         multipleStatements: true
-      });
+      }),
+    db;
 
-con.connect((err)=>{
+con.connect(async (err)=>{
   if(err) {
     throw err;
   } else {
@@ -15,7 +16,7 @@ con.connect((err)=>{
     let query = `select schema_name from information_schema.schemata where schema_name = '${mydb}';`;
     con.query(query, (err, res)=>{
       if(err) {
-        throw err;
+        console.error(err.sqlMessage);
       } else {
         if(res.length == 0) {
           console.log("No db.");
@@ -37,23 +38,22 @@ con.connect((err)=>{
         }
         console.log("Connecting to db...");
 
-        con = sql.createConnection({
+        db = sql.createConnection({
           host: "localhost",
           user: "root",
           database: mydb,
           multipleStatements: true
         });
     
-        con.connect((err)=>{
+        db.connect((err)=>{
           if(err) {
             throw err;
           } else {
             console.log(`Connected to database: ${mydb}`);
+            module.exports = db;
           }
-        })
+        });
       }
     });
   }
 });
-
-module.exports = con;

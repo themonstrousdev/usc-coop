@@ -2040,3 +2040,15 @@ $(window).ready(()=>{
 		$("body").scrollTop(0);
 	})
 })
+
+$(document).ready(()=>{
+	let pagination = $("#pageNum");
+pagination.change(function() {
+		let value = $(this).val();
+		if(value < 1) {
+			$(this).val(1);
+		} else if (value > totalPages){
+			$(this).val(totalPages);
+		}
+	});
+});

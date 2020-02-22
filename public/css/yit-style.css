@@ -211,6 +211,7 @@ img { margin-bottom:0; }
 .yit-btn-auto { width:auto; }
 .yit-btn-left { float:left; }
 .yit-btn-right { float:right; }
+.yit-no-arrow::after {display: none}
 
 /* Form &amp; Input Style BOF
 ==================================================== */
